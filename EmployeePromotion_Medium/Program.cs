@@ -55,10 +55,10 @@ namespace EmployeePromotion_Medium
 
                 getEmployeeId = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(employees[getEmployeeId].ToString());
-                foreach (var employee in employees)
+               /* foreach (var employee in employees)
                 {
                     Console.WriteLine(employee.Value.ToString());
-                }
+                }*/
             } 
         }
        
